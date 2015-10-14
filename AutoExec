@@ -1,0 +1,19 @@
+sv_cheats 1 
+viewmodel_fov 90
+viewmodel_offset_x 3
+viewmodel_offset_y 3
+viewmodel_offset_z -3
+cl_bob_lower_amt 10
+net_graph 0 
+cl_showfps 0 
+hud_showtargetid 0
+hud_takesshots 0
+cl_righthand 1
+mp_display_kill_assists 0
+sv_cheats 1
+
+//Displaydamage - Switch Script - Mostrar DANO/DAMAGE no canto superior esquerdo
+bind "ins" "displaydamage" // APERTE A TECLA INSERT / INS PARA ATIVAR E DESATIVAR
+alias displaydamage "displaydamage_on"
+alias displaydamage_on "con_filter_text Damage; con_filter_text_out Player:; con_filter_enable 2; developer 1; alias displaydamage "displaydamage_off"; echo Displaydamage ligado!"
+alias displaydamage_off "con_filter_enable 0; developer 0; alias displaydamage "displaydamage_on"; execme; echo Displaydamage desligado!"
