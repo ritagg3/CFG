@@ -1,8 +1,5 @@
 unbindall
 bind "0" "slot10"
-bind "kp_end" "buy ak47; buy m4a1; buy vesthelm; buy defuser; buy flashbang; buy flashbang; buy hegrenade; buy smokegrenade;"
-bind "kp_downarrow" "buy awp; buy vesthelm; buy defuser; buy flashbang; buy flashbang; buy hegrenade; buy smokegrenade;"
-bind "kp_ins" "buy mp7; buy defuser; buy vesthelm; buy flashbang; buy flashbang; buy hegrenade; buy smokegrenade;"
 bind "1" "slot1"
 bind "2" "slot2"
 bind "3" "slot3"
