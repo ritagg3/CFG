@@ -1,0 +1,14 @@
+               BIND TAB+NET_GRAPH
+
+bind "TAB" "+ng";
+
+alias "+ng" "+showscores; net_graph 1";
+
+alias "-ng" "-showscores; net_graph 0";
+
+
+
+               BIND JUMP
+
+bind "MWHEELUP" "+jump"
+bind "MWHEELDOWN" "+jump"
