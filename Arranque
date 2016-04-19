@@ -1,1 +1,1 @@
--novid -high -threads 4 +cl_forcepreload 1 -snd_headphone_pan_exponent 2 -snd_front_headphone_position 45 -snd_rear_headphone_position 135 -nod3d9ex -nojoy -noforcemaccel -noforcemparms -language english  -mat_queue_mode 2 -exec autoexec -freq 60 +fps_max 0
+-novid -high -threads 4 +cl_forcepreload 1 -snd_headphone_pan_exponent 2 -snd_front_headphone_position 45 -snd_rear_headphone_position 135 -nod3d9ex -nojoy -noforcemaccel -noforcemparms -language english  -mat_queue_mode 2 +fps_max 0 -lv
