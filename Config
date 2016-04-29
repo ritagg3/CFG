@@ -1,6 +1,8 @@
 CFG LKZR
 
 unbindall
+bind "End" "mat_setvideomode 800 600 0"
+bind "pgdn" "mat_setvideomode 800 600 1"
 bind "del" "buy mp7; buy smokegrenade; buy flashbang; buy flashbang; buy hegrenade; buy vesthelm; buy vest; buy defuser;"
 bind "Home" "buy m4a1; buy ak47; buy smokegrenade; buy flashbang; buy hegrenade; buy vesthelm; buy vest; buy defuser;"
 bind "pgup" "buy awp; buy smokegrenade; buy flashbang; buy hegrenade; buy vesthelm; buy vest; buy defuser;"
@@ -422,7 +424,7 @@ ui_steam_overlay_notification_position "topleft"
 vgui_message_dialog_modal "1"
 viewmodel_fov "68"
 viewmodel_offset_x "2.5"
-viewmodel_offset_y "0"
+viewmodel_offset_y "3"
 viewmodel_offset_z "-1.5"
 viewmodel_presetpos "0"
 voice_caster_enable "0"
