@@ -422,10 +422,10 @@ tr_completed_training "0"
 tv_nochat "0"
 ui_steam_overlay_notification_position "topleft"
 vgui_message_dialog_modal "1"
-viewmodel_fov "68"
-viewmodel_offset_x "2.5"
-viewmodel_offset_y "3"
-viewmodel_offset_z "-1.5"
+viewmodel_fov "60"
+viewmodel_offset_x "2"
+viewmodel_offset_y "0"
+viewmodel_offset_z "-2"
 viewmodel_presetpos "0"
 voice_caster_enable "0"
 voice_caster_scale "1"
@@ -456,4 +456,3 @@ cl_updaterate 128
 cl_cmdrate 128
 cl_interp_ratio 1
 cl_interp 0
-fps_max 58
