@@ -1,8 +1,6 @@
-CFG LKZR
+CFG LK
 
 unbindall
-bind "End" "mat_setvideomode 640 480 0"
-bind "pgdn" "mat_setvideomode 640 480 1"
 bind "del" "buy mp7; buy smokegrenade; buy flashbang; buy flashbang; buy hegrenade; buy vesthelm; buy vest; buy defuser;"
 bind "Home" "buy m4a1; buy ak47; buy smokegrenade; buy flashbang; buy hegrenade; buy vesthelm; buy vest; buy defuser;"
 bind "pgup" "buy awp; buy smokegrenade; buy flashbang; buy hegrenade; buy vesthelm; buy vest; buy defuser;"
@@ -139,9 +137,9 @@ cl_crosshair_dynamic_splitdist "7"
 cl_crosshair_outlinethickness "1"
 cl_crosshair_sniper_width "1"
 cl_crosshairalpha "255"
-cl_crosshaircolor "1"
+cl_crosshaircolor "5"
 cl_crosshaircolor_b "0"
-cl_crosshaircolor_g "255"
+cl_crosshaircolor_g "0"
 cl_crosshaircolor_r "255"
 cl_crosshairdot "0"
 cl_crosshairgap "-3"
