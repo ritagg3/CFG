@@ -1,1 +1,1 @@
--high -novid -threads 4 -nod3d9ex1 +mat_queue_mode -2 +r_dynamic 0 +cl_forcepreload 1 +rate 198000
+-novid -high -language english -threads 4 -nod3d9ex1 +mat_queue_mode -2 +r_dynamic 0 +cl_forcepreload 1
